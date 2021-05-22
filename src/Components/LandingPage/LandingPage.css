@@ -1,0 +1,103 @@
+.main {
+  height: 100vh;
+  background-color: #1a2138;
+  color: #fff;
+}
+.header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 6px 0px;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+}
+button {
+  margin: 1rem;
+}
+a {
+  margin: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  margin-left: 1rem;
+}
+.logo .fa {
+  cursor: pointer;
+  color: red;
+  font-size: 30px;
+}
+.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* hero section */
+
+.hero_section {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.intro__docs {
+  /* border: 1px solid red; */
+  width: 550px;
+  text-align: left;
+  padding: 3rem;
+}
+
+.intro__docs .heading__intro h1 {
+  font-weight: 700;
+  font-size: 3.3333rem;
+  margin: 1rem;
+}
+.intro__docs .heading__intro p {
+  font-family: "Inter", sans-serif;
+}
+.space__edit{
+    font-size: 3rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+    background-color: rgb(18, 51, 194);
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 10px 40px 10px;
+  }
+  .button__intro{
+  margin-right: 1rem;
+  }
+  .features__docs{
+      /* border: 1px solid #fff; */
+      position: relative;
+      height: 200px;
+      width: 600px;
+      margin-top: 2rem;
+      box-shadow: rgba(0, 0, 0, 0.176) 0px 10px 40px 10px;
+
+  }
+ 
+  .img__banner{
+    height: 300px;
+  }
+  
+
+/* footer section */
+
+.footer__section {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 3px 0px 0px 6px;
+    align-items: center;
+}
+.MuiSvgIcon-root{
+    margin-left: 1rem;
+}
